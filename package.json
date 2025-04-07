@@ -5,7 +5,7 @@
     "type": "module",
     "homepage": "https://jagriti20022004.github.io/new-app",
     "scripts": {
-        "predeploy": "vite build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d dist",
         "dev": "vite",
         "build": "vite build",
